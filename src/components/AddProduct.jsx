@@ -12,17 +12,18 @@ const AddProduct = () => {
 
   return (
     <>
-      <Button my={4} data-cy="add-product-button"></Button>
+    <h1>hello dosto</h1>
+      <Button my={4} data-cy="add-product-button">hello</Button>
       <Modal>
         <ModalBody pb={6}>
           <Input data-cy="add-product-title" />
           <Select data-cy="add-product-category">
-            <option data-cy="add-product-category-shirt"></option>
+            <option data-cy="add-product-category-shirt">hello add products</option>
             <option data-cy="add-product-category-pant"></option>
             <option data-cy="add-product-category-jeans"></option>
           </Select>
           <RadioGroup data-cy="add-product-gender">
-            <Radio data-cy="add-product-gender-male"></Radio>
+            <Radio data-cy="add-product-gender-male">sad</Radio>
             <Radio data-cy="add-product-gender-female"></Radio>
             <Radio data-cy="add-product-gender-unisex"></Radio>
           </RadioGroup>
